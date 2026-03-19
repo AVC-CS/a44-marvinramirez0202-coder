@@ -12,5 +12,22 @@ int main()
         cout << "4. None of them\n";
         cin >> selection;
 // TODO
+        switch (selection){
+                case 1:
+                        cout << "Menu 1 selected\n";
+                        break;
+                case 2:
+                        cout << "Menu 2 selected\n";
+                        break;
+                case 3:
+                        cout << "Menu 3 selected\n";
+                        break;
+                case 4:
+                        cout << "Menu 4 selected\n";
+                        break;
+                default:
+                        cout << "Wrong menu item\n";
+                        break;
+        }
 // TODO
 }
